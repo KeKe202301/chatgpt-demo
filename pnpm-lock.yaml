@@ -1,11 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/alpinejs': ^0.2.1
-  '@astrojs/netlify': 2.2.0
+  '@astrojs/netlify': 2.0.0
   '@astrojs/node': ^5.1.1
   '@astrojs/solid-js': ^2.1.0
-  '@astrojs/vercel': ^3.2.2
+  '@astrojs/vercel': ^3.1.3
   '@evan-yang/eslint-config': ^1.0.9
   '@iconify-json/carbon': ^1.1.16
   '@iconify-json/simple-icons': ^1.1.48
@@ -19,7 +18,7 @@ specifiers:
   '@zag-js/select': ^0.2.1
   '@zag-js/solid': ^0.3.1
   '@zag-js/toggle': ^0.2.15
-  astro: ^2.2.0
+  astro: ^2.0.15
   eslint: ^8.37.0
   eslint-plugin-astro: ^0.24.0
   eventsource-parser: ^0.1.0
@@ -40,8 +39,7 @@ specifiers:
   vite-plugin-pwa: ^0.14.7
 
 dependencies:
-  '@astrojs/alpinejs': 0.2.1_4gnj3u2eydpfn7uqni2faidxoa
-  '@astrojs/netlify': 2.2.0_astro@2.2.0
+  '@astrojs/netlify': 2.0.0_astro@2.2.0
   '@astrojs/node': 5.1.1_astro@2.2.0
   '@astrojs/solid-js': 2.1.0_l6zaz5rwwx6pud5xnp2dccaica
   '@astrojs/vercel': 3.2.2_astro@2.2.0+react@18.2.0
@@ -116,16 +114,6 @@ packages:
       leven: 3.1.0
     dev: true
 
-  /@astrojs/alpinejs/0.2.1_4gnj3u2eydpfn7uqni2faidxoa:
-    resolution: {integrity: sha512-lIwCw2XUB/3HAstWpqGvUnSH4BnFwXxkSxq+jpkPw0U1mMw4JP4RauGUbD1F2acZXun7T68alJydAF1dLLCv4A==}
-    peerDependencies:
-      '@types/alpinejs': ^3.0.0
-      alpinejs: ^3.0.0
-    dependencies:
-      '@types/alpinejs': 3.7.1
-      alpinejs: 3.12.0
-    dev: false
-
   /@astrojs/compiler/0.31.4:
     resolution: {integrity: sha512-6bBFeDTtPOn4jZaiD3p0f05MEGQL9pw2Zbfj546oFETNmjJFWO3nzHz6/m+P53calknCvyVzZ5YhoBLIvzn5iw==}
     dev: false
@@ -179,13 +167,12 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/netlify/2.2.0_astro@2.2.0:
-    resolution: {integrity: sha512-zpWb7yI96Gxmp6CuhFw7U0I4rH7LMHH6nIyf14gLXmRSLp9YHDux1a1T6zz1SZPNkbwkaHYHCCBnIMszHpkLCQ==}
+  /@astrojs/netlify/2.0.0_astro@2.2.0:
+    resolution: {integrity: sha512-DEyuEhWOvkzto2tW/xsM77lR1kV3+CgKxdGrTic4Jetu+CxrlXDvkiNG0tDvUYdGv2NbOb86fKn6JYRGsYt5bg==}
     peerDependencies:
-      astro: ^2.1.0
+      astro: ^2.0.0
     dependencies:
       '@astrojs/webapi': 2.1.0
-      '@netlify/functions': 1.4.0
       astro: 2.2.0
       esbuild: 0.15.18
     dev: false
@@ -1826,13 +1813,6 @@ packages:
       solid-js: 1.7.2
     dev: false
 
-  /@netlify/functions/1.4.0:
-    resolution: {integrity: sha512-gy7ULTIRroc2/jyFVGx1djCmmBMVisIwrvkqggq5B6iDcInRSy2Tpkm+V5C63hKJVkNRskKWtLQKm9ecCaQTjA==}
-    engines: {node: '>=8.3.0'}
-    dependencies:
-      is-promise: 4.0.0
-    dev: false
-
   /@next/eslint-plugin-next/12.3.4:
     resolution: {integrity: sha512-BFwj8ykJY+zc1/jWANsDprDIu2MgwPOIKxNVnrKvPs+f5TPegrVnem8uScND+1veT4B7F6VeqgaNLFW1Hzl9Og==}
     dependencies:
@@ -1996,12 +1976,6 @@ packages:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.8
     dev: true
-
-  /@types/alpinejs/3.7.1:
-    resolution: {integrity: sha512-gzwyuHXH/meGQQhurMGWlZgMQxe18lMOoSPd7X6CvGoDelHte9EsU7SpTIoRu8yYir0tbHDeaSMdX9LeQz/QtA==}
-    dependencies:
-      '@vue/reactivity': 3.2.47
-    dev: false
 
   /@types/babel__core/7.20.0:
     resolution: {integrity: sha512-+n8dL/9GWblDO0iU6eZAwEIJVr5DWigtle+Q6HLOrh/pdbXOhOtqzq8VPPE2zvNJzSKY4vH/z3iT3tn0A3ypiQ==}
@@ -2524,26 +2498,6 @@ packages:
     resolution: {integrity: sha512-ukOMWnCg1tCvT7WnDfsUKQOFDQGsyR5tNgRpwmqi+5/vzU3ghdDXzvIM4IOPdSb3OeSsBNvmSL8nxIVOqi2WXA==}
     dev: false
 
-  /@vue/reactivity/3.1.5:
-    resolution: {integrity: sha512-1tdfLmNjWG6t/CsPldh+foumYFo3cpyCHgBYQ34ylaMsJ+SNHQ1kApMIa8jN+i593zQuaw3AdWH0nJTARzCFhg==}
-    dependencies:
-      '@vue/shared': 3.1.5
-    dev: false
-
-  /@vue/reactivity/3.2.47:
-    resolution: {integrity: sha512-7khqQ/75oyyg+N/e+iwV6lpy1f5wq759NdlS1fpAhFXa8VeAIKGgk2E/C4VF59lx5b+Ezs5fpp/5WsRYXQiKxQ==}
-    dependencies:
-      '@vue/shared': 3.2.47
-    dev: false
-
-  /@vue/shared/3.1.5:
-    resolution: {integrity: sha512-oJ4F3TnvpXaQwZJNF3ZK+kLPHKarDmJjJ6jyzVNDKH9md1dptjC7lWR//jrGuLdek/U6iltWxqAnYOu8gCiOvA==}
-    dev: false
-
-  /@vue/shared/3.2.47:
-    resolution: {integrity: sha512-BHGyyGN3Q97EZx0taMQ+OLNuZcW3d37ZEVmEAyeoA9ERdGvm9Irc/0Fua8SNyOtV1w6BS4q25wbMzJujO9HIfQ==}
-    dev: false
-
   /@zag-js/anatomy/0.1.4:
     resolution: {integrity: sha512-Xc5QmQwY0W3VdkukYVaoujuCmgf0Y2ZbXhIBi0CJ0d8wWRwjkphhJu8l9kDyX4ElpyzvExYbrpTuQoI4BspaVQ==}
     dev: false
@@ -2715,12 +2669,6 @@ packages:
       require-from-string: 2.0.2
       uri-js: 4.4.1
     dev: true
-
-  /alpinejs/3.12.0:
-    resolution: {integrity: sha512-YENcRBA9dlwR8PsZNFMTHbmdlTNwd1BkCeivPvOzzCKHas6AfwNRsDK9UEFmE5dXTMEZjnnpCTxV8vkdpWiOCw==}
-    dependencies:
-      '@vue/reactivity': 3.1.5
-    dev: false
 
   /ansi-align/3.0.1:
     resolution: {integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==}
@@ -5167,10 +5115,6 @@ packages:
   /is-plain-obj/4.1.0:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
     engines: {node: '>=12'}
-    dev: false
-
-  /is-promise/4.0.0:
-    resolution: {integrity: sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==}
     dev: false
 
   /is-regex/1.1.4:
